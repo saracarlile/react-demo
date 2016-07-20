@@ -26,8 +26,7 @@ const common = merge(
       app: PATHS.app
     },
     output: {
-      path: PATHS.build,
-       publicPath: '/react-demo/',
+      path: PATHS.build,  
       filename: '[name].js'
       // TODO: Set publicPath to match your GitHub project name
       // E.g., '/kanban-demo/'. Webpack will alter asset paths
