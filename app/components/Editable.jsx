@@ -20,7 +20,7 @@ export default ({editing, value, onEdit, className, ...props}) => {
 
 class Edit extends React.Component {
   render() {
-    const {className, value, ...props} = this.props;
+    const {className, value, onEdit, ...props} = this.props;
 
     return <input
       type="text"
