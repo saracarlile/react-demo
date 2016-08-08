@@ -74,4 +74,6 @@ class App extends React.Component {
 
 export default connect(({notes}) => ({
   notes
-}))(App)
+}), {
+  NoteActions
+})(App)
