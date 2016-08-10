@@ -61,6 +61,7 @@ switch(TARGET) {
         },
         output: {
           path: PATHS.build,
+          publicPath: '/react-demo/'
           filename: '[name].[chunkhash].js',
           chunkFilename: '[chunkhash].js'
         }
